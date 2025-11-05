@@ -1,0 +1,7 @@
+BASIC FRAMEWORK FOR BACKTRACKING:
+LCCMD
+L---> Check the level
+C--->Check the different choices possible
+C--->Check the correctness of each conditon
+M--->Move to the next level
+D--->Decide when to exit recursion
