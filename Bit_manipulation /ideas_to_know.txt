@@ -1,0 +1,13 @@
+1) x&~(x-1) => prints the lsb of x;
+
+2)The xor of numbers upto n can be determined in O(1) by considering the observation that
+        a)if(x%4==0) => n
+        b)if rem with 4==1 => 1
+        c)if rem with 4==2 => x+1;
+        d)if rem with 4==3 => 0;
+
+3)if(n+i)==(n^i) => (n&i==0)
+
+4)Given an array of integers, find the minimum xor of a pair of elements of the array.
+
+ => Sort the array in increasing order. Then minimum xor will be xor of a_i and a_i+1 for some i
