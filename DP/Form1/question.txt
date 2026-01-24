@@ -1,0 +1,10 @@
+The Question
+There is a string AB???CD????. You have to count the number of ways different strings can be formed from it such that:
+
+1)No 2 neighbours are same
+
+2)What if the string is cyclic
+
+3)Print the lexicographically smallest solution
+
+4)Print all of the solutions

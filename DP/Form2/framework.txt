@@ -1,0 +1,1 @@
+DP(i)=best choice ending at i 

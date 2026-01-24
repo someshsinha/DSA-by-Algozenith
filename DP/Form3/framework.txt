@@ -1,0 +1,4 @@
+It includes question such as there will be 2 strings and you will be asked to    
+find the longest subarray / substring or subsequence 
+
+=> multisequence matching

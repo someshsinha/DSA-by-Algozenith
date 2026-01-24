@@ -1,0 +1,11 @@
+The Logic: Interval DP ("Form 4")
+
+The core philosophy of "LR DP" is solving a problem for a range [i, j] by breaking it down
+into smaller sub-ranges [i, k] and [k+1, j] (or similar variations), where k is a pivot 
+point between i and j.
+
+The General Template:
+1) State: DP[i][j] = Result for the subarray from index i to j.
+2) Transition: Loop through every possible partition k between i and j to find the optimal split.
+3) Order of Evaluation: You iterate by the length of the range (from 2 to N) or backwards for i
+and forwards for j, ensuring smaller subproblems are solved before larger ones.
